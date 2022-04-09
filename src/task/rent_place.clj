@@ -12,7 +12,7 @@
       (as-> $
             (map :id $))))
 
-(defn make-rental-link
+(defn- make-rental-link
   [base-url id]
   (str base-url "/rental-listings/" id))
 
